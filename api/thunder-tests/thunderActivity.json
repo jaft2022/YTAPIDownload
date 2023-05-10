@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "5ff774ac-edbf-499c-b4c3-1cc5010f2d03",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3020/api/v1/products/",
+    "url": "http://localhost:3020/api/v1/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-30T18:02:03.024Z",
+    "modified": "2023-05-09T21:53:50.092Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8d4767ac-c7b5-4a71-9a5c-5f38dcedcc57",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3020/api/v1/products/",
+    "url": "http://localhost:3020/api/v1/products/121",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-03-30T18:06:09.752Z",
+    "modified": "2023-03-30T21:45:48.653Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"new product\",\n  \"price\": 1240,\n  \"image\": \"https://www.lamp.es/images/54790/slider_image.jpg\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0f2a1417-a5a5-4930-bea1-b8a54429eed8",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3020/api/v1/products/ Copy",
+    "url": "http://localhost:3020/api/v1/products/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-30T18:06:09.752Z",
+    "modified": "2023-05-09T22:55:42.075Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Camisa\",\n  \"price\": 10,\n  \"image\": \"https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "703fbb9f-b46e-463b-b377-60d92dff1fb4",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3020/api/v1/products/ Copy",
+    "url": "http://localhost:3020/api/v1/products/121",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-30T18:06:09.752Z",
+    "modified": "2023-04-02T16:50:35.091Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"change name\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a96f8907-032b-4fc0-a6cc-5126cf4001da",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3020/api/v1/products/ Copy Copy",
+    "url": "http://localhost:3020/api/v1/products/9524bc4d-76bf-404e-a302-f0079145adb1",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2023-03-30T18:06:09.752Z",
+    "modified": "2023-05-09T22:56:30.859Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"price\": 120\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
