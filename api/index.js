@@ -1,7 +1,13 @@
+
+
 const express = require('express');
 const routerApi = require('./routes');
 const { logErrors, errorHandler, boomErrorHandler } = require('./middlewares/error.handler');
 const cors = require('cors');
+
+//const certifi = require('certifi');
+// Get the path to the trusted certificate bundle
+//process.env.SSL_CERT_FILE = certifi.where();
 
 const app = express();
 const port = 3020;
