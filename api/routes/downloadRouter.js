@@ -23,15 +23,10 @@ router.get('/', (req, res) => {
     output: path.join(outputFolderPath, '%(title)s.%(ext)s'),
     noCheckCertificate: true,
     ffmpegLocation: '/usr/local/bin/ffmpeg',
-    getTitle :true,
-    getDuration: true,
-    getFilename: true,
-  }).then((data) => {
-    console.log("data: ", data);
+  }).then(() => {
     res.json(
       {
          message: 'Conversion successful',
-         title: data
       });
   }).catch((error) => {
     console.error(`An error occurred: ${error}`);
